@@ -1,10 +1,10 @@
 import React, { useState, useRef } from 'react';
 import { UploadCloud, FileText, Command, ShieldCheck, ArrowRight, LogOut, AlertCircle } from 'lucide-react';
-import { parseFileContent } from './utils/parser';
+import { parseFileContent } from './parser';
 import { TaxNotice } from './types';
-import { Sidebar } from './components/Sidebar';
-import { DocumentView } from './components/DocumentView';
-import { Dashboard } from './components/Dashboard';
+import { Sidebar } from './Sidebar';
+import { DocumentView } from './DocumentView';
+import { Dashboard } from './Dashboard';
 
 const App: React.FC = () => {
   // Auth State
